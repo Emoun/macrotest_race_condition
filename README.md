@@ -1,5 +1,5 @@
 
-This repository exhibits a bug with the `macrotest` crate (v1.0.2).
+This repository exhibits [a bug with the `macrotest` crate (v1.0.2)](https://github.com/eupn/macrotest/issues/44).
 If multiple tests run expansion tests (using `macrotest::expand_without_refresh`) they somehow interfere with each other and fail with the following error:
 
 ```
